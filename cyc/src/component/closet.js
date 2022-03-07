@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../img/cyc_logo.png';
 import '../css/closet.css';
 
-function Home() {
+function Closet() {
   return (
     <div className="Closet">
         <div className='header'><img src={logo}  className="headimg"/></div>
@@ -18,4 +18,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Closet;
