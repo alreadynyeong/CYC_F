@@ -1,0 +1,24 @@
+.Closet{
+    text-align: center;
+    background-color:#05022C;
+    height: 100%;
+    font-family: GmarketSansMedium;
+    padding-bottom: 50px;
+}
+
+.headimg {
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cate div{
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    color: #FFD966;
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 3px solid #FFD966;
+}
