@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './cyc_logo.png';
-import './App.css';
+import logo from '../img/cyc_logo.png';
+// import './App.css';
+import '../css/App.css';
 
 function App() {
   return (
