@@ -1,38 +1,53 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
+  background-color:#05022C;
+  height: 100vh;
+  font-family: GmarketSansMedium;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoimg{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 137px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.select{
+  margin: auto;
+  max-width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.select div{
+  font-size: 20px;
   color: white;
+  padding: 10px;
+  border: 3px solid #FFD966;
+  border-radius: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.color{
+  width: 170px;
+  margin-bottom: 40px;
+  margin-left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cody{
+  width: 240px;
+  float: right;
+  margin-right: 10%;
 }
+
+.closet{
+  width: 280px;
+  margin-top: 180px;
+  margin-left: 10%;
+}
+
+
+
