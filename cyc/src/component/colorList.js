@@ -1,11 +1,12 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import logo from '../img/cyc_logo.png';
 import '../css/colorList.css';
 
 function ColorList() {
   return (
     <div className="ColorList">
-        <div className='header'><img src={logo}  className="headimg"/></div>
+        <div className='header'><Link to="/" ><img src={logo}  className="headimg"/></Link></div>
         <div className='maincolor'>
         <div style={{backgroundColor: "red"}}></div>
         </div>

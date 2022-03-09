@@ -1,11 +1,12 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import logo from '../img/cyc_logo.png';
 import '../css/color.css';
 
 function Color() {
   return (
     <div className="Color">
-        <div className='header'><img src={logo}  className="headimg"/></div>
+        <div className='header'><Link to="/" ><img src={logo}  className="headimg"/></Link></div>
         <div className='choice'>
             <div style={{backgroundColor: "red"}}></div>
             <div style={{backgroundColor: "white"}}></div><br></br>

@@ -1,11 +1,12 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import logo from '../img/cyc_logo.png';
 import '../css/closet.css';
 
 function Closet() {
   return (
     <div className="Closet">
-        <div className='header'><img src={logo}  className="headimg"/></div>
+        <div className='header'><Link to="/" ><img src={logo}  className="headimg"/></Link></div>
         <div className='cate'>
             <div className='outer'>아우터</div><br></br><br></br>
             <div className='top'>상의</div><br></br><br></br>

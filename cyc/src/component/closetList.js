@@ -1,11 +1,12 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import logo from '../img/cyc_logo.png';
 import '../css/closetList.css';
 
 function ClosetList() {
   return (
     <div className="ClosetList">
-        <div className='header'><img src={logo}  className="headimg"/></div>
+        <div className='header'><Link to="/" ><img src={logo}  className="headimg"/></Link></div>
         <div className='add'>
             <input className='write'></input>
             <input type='submit' id='addBtn' name=''></input>

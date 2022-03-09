@@ -1,11 +1,12 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import logo from '../img/cyc_logo.png';
 import '../css/cody.css';
 
 function Cody() {
   return (
     <div className="Cody">
-        <div className='header'><img src={logo}  className="headimg"/></div>
+        <div className='header'><Link to="/" ><img src={logo}  className="headimg"/></Link></div>
         <div className='month'>
             <div>1월</div>
             <div>2월</div><br></br>
