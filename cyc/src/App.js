@@ -7,6 +7,7 @@ import ClosetList from './component/closetList';
 import Cody from './component/cody';
 import CodyList from './component/codyList';
 import Color from './component/color';
+import ColorList from './component/colorList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='closet' element={<Closet />} />
           <Route path='closet/list' element={<ClosetList />} />
           <Route path='color' element={<Color />} />
+          <Route path='color/list' element={<ColorList />} />
           <Route path='cody' element={<Cody />} />
           <Route path='cody/list' element={<CodyList />} />
 

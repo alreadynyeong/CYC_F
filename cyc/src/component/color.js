@@ -6,7 +6,7 @@ function Color() {
   return (
     <div className="Color">
         <div className='header'><img src={logo}  className="headimg"/></div>
-        <div className='month'>
+        <div className='choice'>
             <div style={{backgroundColor: "red"}}></div>
             <div style={{backgroundColor: "white"}}></div><br></br>
             <div style={{backgroundColor: "gray"}}></div>

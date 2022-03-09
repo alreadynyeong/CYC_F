@@ -11,12 +11,12 @@
     margin-bottom: 50px;
 }
 
-.month{
+.choice{
     width: fit-content;
     margin: auto;
 }
 
-.month div{
+.choiece div{
     float: left;
     width: 130px;
     height: 60px;

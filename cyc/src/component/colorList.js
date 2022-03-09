@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from '../img/cyc_logo.png';
-import '../css/color.css';
+import '../css/colorList.css';
 
-function Color() {
+function ColorList() {
   return (
-    <div className="Color">
+    <div className="ColorList">
         <div className='header'><img src={logo}  className="headimg"/></div>
         <div className='maincolor'>
         <div style={{backgroundColor: "red"}}></div>
@@ -22,4 +22,4 @@ function Color() {
   );
 }
 
-export default Color;
+export default ColorList;
