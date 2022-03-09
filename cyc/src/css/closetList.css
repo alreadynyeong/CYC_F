@@ -1,0 +1,53 @@
+.ClosetList{
+    text-align: center;
+    background-color:#05022C;
+    min-height: 100vh;
+    height: 100%;
+    font-family: GmarketSansMedium;
+    /* padding-bottom: 50px; */
+}
+
+.headimg {
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.add {
+    margin: auto;
+    max-width: 400px;
+}
+
+#addBtn {
+    height: 40px;
+    background-color: #05022C;
+    color: white;
+    border: 3px solid white;
+    margin-left: 15px;
+    border-radius: 100px;
+}
+
+.write {
+    max-width: 410px;
+    color: white;
+    height: 30px;
+    border: 3px solid white;
+    padding: 5px;
+    background-color: #05022C;
+}
+
+.content{
+    margin: auto;
+    max-width: 400px;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: 3px solid #FFD966;
+}
+
+.del {
+    float: right;
+    color: #FFD966;
+    padding-right: 10px;
+}
