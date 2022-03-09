@@ -5,6 +5,7 @@ import Home from './component/home';
 import Closet from './component/closet';
 import ClosetList from './component/closetList';
 import Cody from './component/cody';
+import CodyList from './component/codyList';
 import Color from './component/color';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='closet/list' element={<ClosetList />} />
           <Route path='color' element={<Color />} />
           <Route path='cody' element={<Cody />} />
+          <Route path='cody/list' element={<CodyList />} />
 
         </Routes>
     </BrowserRouter>
