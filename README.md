@@ -1,3 +1,3 @@
 # CYC
 
-Close your Closet 임시 프론트엔드
+Close your Closet 임시 프론트
